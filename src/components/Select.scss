@@ -1,0 +1,19 @@
+.Select {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 19px;
+  select {
+    cursor: pointer;
+    background-image: url('../../public/select.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .95em auto, 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: .6em 1.4em .5em .8em; width: 100%;
+    width: 70px;
+  }
+}

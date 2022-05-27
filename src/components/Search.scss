@@ -1,0 +1,30 @@
+@import '../styles/variables.scss';
+
+.Search {
+  display: flex;
+  padding-bottom: 47px;
+  padding-top: 32px;
+  padding-right: 39px;
+  padding-left: 25px;
+  background-color: $grey-bg-color;
+  .search_button {
+    width: 74px;
+    height: 68px;
+    background: url('../../public/search-icon.png') center no-repeat;
+    background-color: $blue-color;
+    border: 1px solid $grey-color;
+  }
+  .search_input::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+  }
+  .search_input {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    padding: 14px 23px;
+    border: 1px solid $grey-color;
+  }
+
+}

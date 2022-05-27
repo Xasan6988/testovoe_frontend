@@ -1,0 +1,14 @@
+.projects {
+  margin-top: 35px;
+  .projects_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    li {
+      flex-basis: 25%
+    }
+  }
+
+}

@@ -1,0 +1,65 @@
+@import '../styles/variables.scss';
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  border: 1px solid #A2A3A4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  .Card_name {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .Card_author {
+    display: flex;
+    align-items: center;
+    .author_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 27px;
+    }
+    .author_name {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+  .Card_statistic {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .Card_comment {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    .comment_input {
+      font-size: 18px;
+      line-height: 21px;
+      padding: 16px;
+      width: 100%;
+    }
+    .comment_input::placeholder {
+      color: #000
+    }
+    .comment_button {
+      width: 64px;
+      height: 57px;
+      background: url('../../public/write.png') center no-repeat;
+      background-color: $blue-color;
+      border: none;
+    }
+  }
+  .comments_list {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

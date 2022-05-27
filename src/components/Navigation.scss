@@ -1,0 +1,25 @@
+@import '../styles/variables.scss';
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  .navigation_btn-prev {
+    background: url('../../public/prev.png') center;
+  }
+  .navigation_btn-prev:disabled {
+    background-color: $grey-bg-color;
+  }
+  .navigation_btn-next {
+    background: url('../../public/next.png') center;
+  }
+  button {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #A2A3A4;
+    background-color: #fff;
+  }
+  .active_page {
+    background-color: $blue-color;
+    color: #fff;
+  }
+}
